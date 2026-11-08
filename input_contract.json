@@ -1,0 +1,413 @@
+[
+  {
+    "key": "Marital status",
+    "description": "Marital status category code.",
+    "options": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "key": "Application mode",
+    "description": "Admission application mode category code.",
+    "options": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "key": "Application order",
+    "description": "Order of preference in the application (coded value).",
+    "options": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9
+    ]
+  },
+  {
+    "key": "Course",
+    "description": "Degree course category code.",
+    "options": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "key": "Daytime/evening attendance",
+    "description": "Attendance: 1 daytime, 0 evening.",
+    "options": [
+      0,
+      1
+    ]
+  },
+  {
+    "key": "Previous qualification",
+    "description": "Previous qualification category code.",
+    "options": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "key": "Nacionality",
+    "description": "Nationality category code; original training spelling is required.",
+    "options": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "key": "Mother's qualification",
+    "description": "Mother qualification category code.",
+    "options": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  {
+    "key": "Father's qualification",
+    "description": "Father qualification category code.",
+    "options": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "key": "Mother's occupation",
+    "description": "Mother occupation category code.",
+    "options": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ]
+  },
+  {
+    "key": "Father's occupation",
+    "description": "Father occupation category code.",
+    "options": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      20,
+      21,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "key": "Displaced",
+    "description": "Displaced student flag: 1 yes, 0 no.",
+    "options": [
+      0,
+      1
+    ]
+  },
+  {
+    "key": "Educational special needs",
+    "description": "Special educational needs flag: 1 yes, 0 no.",
+    "options": [
+      0,
+      1
+    ]
+  },
+  {
+    "key": "Debtor",
+    "description": "Debtor flag: 1 yes, 0 no.",
+    "options": [
+      0,
+      1
+    ]
+  },
+  {
+    "key": "Tuition fees up to date",
+    "description": "Tuition fees current: 1 yes, 0 no.",
+    "options": [
+      0,
+      1
+    ]
+  },
+  {
+    "key": "Gender",
+    "description": "Dataset gender code: 1 male, 0 female.",
+    "options": [
+      0,
+      1
+    ]
+  },
+  {
+    "key": "Scholarship holder",
+    "description": "Scholarship holder flag: 1 yes, 0 no.",
+    "options": [
+      0,
+      1
+    ]
+  },
+  {
+    "key": "Age at enrollment",
+    "description": "Age in completed years at enrollment.",
+    "min": 17.0,
+    "max": 70.0,
+    "type": "int"
+  },
+  {
+    "key": "International",
+    "description": "International student flag: 1 yes, 0 no.",
+    "options": [
+      0,
+      1
+    ]
+  },
+  {
+    "key": "Curricular units 1st sem (credited)",
+    "description": "First semester curricular units: credited.",
+    "min": 0.0,
+    "max": 20.0,
+    "type": "int"
+  },
+  {
+    "key": "Curricular units 1st sem (enrolled)",
+    "description": "First semester curricular units: enrolled.",
+    "min": 0.0,
+    "max": 26.0,
+    "type": "int"
+  },
+  {
+    "key": "Curricular units 1st sem (evaluations)",
+    "description": "First semester curricular units: evaluations.",
+    "min": 0.0,
+    "max": 45.0,
+    "type": "int"
+  },
+  {
+    "key": "Curricular units 1st sem (approved)",
+    "description": "First semester curricular units: approved.",
+    "min": 0.0,
+    "max": 26.0,
+    "type": "int"
+  },
+  {
+    "key": "Curricular units 1st sem (grade)",
+    "description": "First semester mean grade on the dataset 0\u201320 scale.",
+    "min": 0.0,
+    "max": 18.875,
+    "type": "float"
+  },
+  {
+    "key": "Curricular units 1st sem (without evaluations)",
+    "description": "First semester curricular units: without evaluations.",
+    "min": 0.0,
+    "max": 12.0,
+    "type": "int"
+  },
+  {
+    "key": "Unemployment rate",
+    "description": "Contextual unemployment rate in percent.",
+    "min": 7.6,
+    "max": 16.2,
+    "type": "float"
+  },
+  {
+    "key": "Inflation rate",
+    "description": "Contextual inflation rate in percent.",
+    "min": -0.8,
+    "max": 3.7,
+    "type": "float"
+  },
+  {
+    "key": "GDP",
+    "description": "Contextual GDP growth rate in percent.",
+    "min": -4.06,
+    "max": 3.51,
+    "type": "float"
+  }
+]

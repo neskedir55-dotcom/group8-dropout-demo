@@ -1,0 +1,134 @@
+{
+  "Low-risk example": {
+    "inputs": {
+      "Marital status": 2,
+      "Application mode": 3,
+      "Application order": 2,
+      "Course": 5,
+      "Daytime/evening attendance": 1,
+      "Previous qualification": 5,
+      "Nacionality": 5,
+      "Mother's qualification": 3,
+      "Father's qualification": 1,
+      "Mother's occupation": 2,
+      "Father's occupation": 3,
+      "Displaced": 0,
+      "Educational special needs": 0,
+      "Debtor": 0,
+      "Tuition fees up to date": 1,
+      "Gender": 1,
+      "Scholarship holder": 0,
+      "Age at enrollment": 18,
+      "International": 0,
+      "Curricular units 1st sem (credited)": 0,
+      "Curricular units 1st sem (enrolled)": 6,
+      "Curricular units 1st sem (evaluations)": 8,
+      "Curricular units 1st sem (approved)": 6,
+      "Curricular units 1st sem (grade)": 18.0,
+      "Curricular units 1st sem (without evaluations)": 0,
+      "Unemployment rate": 7.6,
+      "Inflation rate": 0.5,
+      "GDP": -0.6
+    },
+    "result": {
+      "probability": 0.0026,
+      "risk_label": "low_risk",
+      "predicted_outcome": "Graduate",
+      "probabilities": {
+        "Dropout": 0.0026,
+        "Enrolled": 0.2747,
+        "Graduate": 0.7226
+      },
+      "threshold": 0.38,
+      "model_version": "1.0.0"
+    }
+  },
+  "High-risk example": {
+    "inputs": {
+      "Marital status": 2,
+      "Application mode": 3,
+      "Application order": 2,
+      "Course": 5,
+      "Daytime/evening attendance": 1,
+      "Previous qualification": 5,
+      "Nacionality": 5,
+      "Mother's qualification": 3,
+      "Father's qualification": 1,
+      "Mother's occupation": 2,
+      "Father's occupation": 3,
+      "Displaced": 0,
+      "Educational special needs": 0,
+      "Debtor": 1,
+      "Tuition fees up to date": 0,
+      "Gender": 1,
+      "Scholarship holder": 0,
+      "Age at enrollment": 35,
+      "International": 0,
+      "Curricular units 1st sem (credited)": 0,
+      "Curricular units 1st sem (enrolled)": 6,
+      "Curricular units 1st sem (evaluations)": 8,
+      "Curricular units 1st sem (approved)": 0,
+      "Curricular units 1st sem (grade)": 0.0,
+      "Curricular units 1st sem (without evaluations)": 0,
+      "Unemployment rate": 7.6,
+      "Inflation rate": 0.5,
+      "GDP": -0.6
+    },
+    "result": {
+      "probability": 0.7807,
+      "risk_label": "high_risk",
+      "predicted_outcome": "Dropout",
+      "probabilities": {
+        "Dropout": 0.7807,
+        "Enrolled": 0.2193,
+        "Graduate": 0.0
+      },
+      "threshold": 0.38,
+      "model_version": "1.0.0"
+    }
+  },
+  "Borderline example": {
+    "inputs": {
+      "Marital status": 2,
+      "Application mode": 3,
+      "Application order": 2,
+      "Course": 5,
+      "Daytime/evening attendance": 1,
+      "Previous qualification": 5,
+      "Nacionality": 5,
+      "Mother's qualification": 3,
+      "Father's qualification": 1,
+      "Mother's occupation": 2,
+      "Father's occupation": 3,
+      "Displaced": 0,
+      "Educational special needs": 0,
+      "Debtor": 1,
+      "Tuition fees up to date": 0,
+      "Gender": 1,
+      "Scholarship holder": 0,
+      "Age at enrollment": 18,
+      "International": 0,
+      "Curricular units 1st sem (credited)": 0,
+      "Curricular units 1st sem (enrolled)": 6,
+      "Curricular units 1st sem (evaluations)": 8,
+      "Curricular units 1st sem (approved)": 2,
+      "Curricular units 1st sem (grade)": 18.0,
+      "Curricular units 1st sem (without evaluations)": 0,
+      "Unemployment rate": 7.6,
+      "Inflation rate": 0.5,
+      "GDP": -0.6
+    },
+    "result": {
+      "probability": 0.3834,
+      "risk_label": "high_risk",
+      "predicted_outcome": "Dropout",
+      "probabilities": {
+        "Dropout": 0.3834,
+        "Enrolled": 0.6109,
+        "Graduate": 0.0057
+      },
+      "threshold": 0.38,
+      "model_version": "1.0.0"
+    }
+  }
+}

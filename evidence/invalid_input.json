@@ -1,0 +1,75 @@
+{
+  "recorded_at_utc": "2026-11-07T10:59:45.721578+00:00",
+  "api_url": "http://localhost:8000",
+  "request": {
+    "Marital status": 2,
+    "Application mode": 3,
+    "Application order": 2,
+    "Course": 5,
+    "Daytime/evening attendance": 1,
+    "Previous qualification": 5,
+    "Nacionality": 5,
+    "Mother's qualification": 3,
+    "Father's qualification": 1,
+    "Mother's occupation": 2,
+    "Father's occupation": 3,
+    "Displaced": 0,
+    "Educational special needs": 0,
+    "Debtor": 0,
+    "Tuition fees up to date": 1,
+    "Gender": 1,
+    "Scholarship holder": 0,
+    "International": 0,
+    "Curricular units 1st sem (credited)": 0,
+    "Curricular units 1st sem (enrolled)": 6,
+    "Curricular units 1st sem (evaluations)": 8,
+    "Curricular units 1st sem (approved)": 6,
+    "Curricular units 1st sem (grade)": 18.0,
+    "Curricular units 1st sem (without evaluations)": 0,
+    "Unemployment rate": 7.6,
+    "Inflation rate": 0.5,
+    "GDP": -0.6
+  },
+  "status": 422,
+  "response": {
+    "detail": [
+      {
+        "type": "missing",
+        "loc": [
+          "body",
+          "Age at enrollment"
+        ],
+        "msg": "Field required",
+        "input": {
+          "Marital status": 2,
+          "Application mode": 3,
+          "Application order": 2,
+          "Course": 5,
+          "Daytime/evening attendance": 1,
+          "Previous qualification": 5,
+          "Nacionality": 5,
+          "Mother's qualification": 3,
+          "Father's qualification": 1,
+          "Mother's occupation": 2,
+          "Father's occupation": 3,
+          "Displaced": 0,
+          "Educational special needs": 0,
+          "Debtor": 0,
+          "Tuition fees up to date": 1,
+          "Gender": 1,
+          "Scholarship holder": 0,
+          "International": 0,
+          "Curricular units 1st sem (credited)": 0,
+          "Curricular units 1st sem (enrolled)": 6,
+          "Curricular units 1st sem (evaluations)": 8,
+          "Curricular units 1st sem (approved)": 6,
+          "Curricular units 1st sem (grade)": 18.0,
+          "Curricular units 1st sem (without evaluations)": 0,
+          "Unemployment rate": 7.6,
+          "Inflation rate": 0.5,
+          "GDP": -0.6
+        }
+      }
+    ]
+  }
+}

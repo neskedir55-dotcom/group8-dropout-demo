@@ -1,0 +1,7 @@
+Verified 2026-11-07 against the Docker API at http://localhost:8000.
+Three live predictions rendered successfully: low risk, high risk, borderline.
+Phone-width layout checked at 390 x 844 with no horizontal page overflow; tall screenshot preserves all content.
+Real connection failure produced a friendly message without a traceback or stale result.
+No browser page errors observed.
+Captured with scripts/capture_screenshots.py using Playwright 1.64.1 and Chromium.
+The temporary failure server on port 8502 was stopped after capture.
