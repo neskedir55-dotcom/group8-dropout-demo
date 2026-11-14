@@ -34,7 +34,6 @@ prediction_api/
 │   └── README.md                  # Artifact provenance and checksum
 ├── tests/test_api.py
 ├── examples/valid_student.json
-├── scripts/record_requests.py
 ├── evidence/                      # Actual responses, screenshots and test results
 ├── requirements.txt
 ├── requirements-docker.txt         # Pinned runtime packages used inside the container
